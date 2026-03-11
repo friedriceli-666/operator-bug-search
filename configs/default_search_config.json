@@ -1,0 +1,37 @@
+{
+  "gpu_models": [
+    "A100",
+    "A800",
+    "H100",
+    "H800",
+    "RTX3090",
+    "RTX4090"
+  ],
+  "bug_keywords": [
+    "wrong result",
+    "incorrect output",
+    "accuracy",
+    "precision",
+    "numerical",
+    "miscompare",
+    "NaN",
+    "inf",
+    "overflow"
+  ],
+  "stack_keywords": [
+    "cuda",
+    "cublas",
+    "cudnn",
+    "tensorrt",
+    "pytorch",
+    "triton",
+    "tensorflow"
+  ],
+  "queries_per_gpu": 6,
+  "include_repo_keywords": [
+    "bug",
+    "issue",
+    "test",
+    "repro"
+  ]
+}

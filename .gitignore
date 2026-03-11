@@ -1,0 +1,9 @@
+.venv/
+.conda-env/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.egg-info/
+data/raw/*.jsonl
+data/normalized/*.jsonl
+data/normalized/*.csv
